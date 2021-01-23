@@ -10218,6 +10218,20 @@ body {
   background-attachment: scroll;
   background-size: cover;
 }
+.masthead-flipped {
+  transform: scale(1,-1);
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 35rem;
+  padding: 15rem 0;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("../assets/img/ae-image.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  
+}
 .masthead h1 {
   font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 2.5rem;
@@ -10389,6 +10403,7 @@ body {
   text-align: center;
   color: rgb(255, 255, 255);
   font-size:20px ;
+  font-weight: 1000;
   transition: 0.5s;
 }
 
@@ -10403,4 +10418,14 @@ body {
 .plugin-download-list {
   font-size: 25px;
   text-align: center;
+}
+
+.black-text {
+
+  color: #fc2c2c;
+}
+
+.black-text:hover {
+
+  filter:invert(100%)
 }
