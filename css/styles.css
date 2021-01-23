@@ -10400,11 +10400,15 @@ body {
 
 .plugin-section-title{
   text-align: center;
+  position: relative;
+  top: -100px;
 }
 
 .plugin-download-list {
   font-size: 25px;
   text-align: center;
+  position: relative;
+  top: -100px;
 }
 
 .black-text {
@@ -10418,6 +10422,3 @@ body {
 }
 
 
-.href-section2 {
-  
-}
